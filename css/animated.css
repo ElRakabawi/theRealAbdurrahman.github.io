@@ -1,0 +1,7 @@
+header nav ul li:hover{
+    border-bottom: 0.095em solid #fac7bb;
+}
+
+.container .education h4:hover{
+     border-bottom: 0.19em solid #fac7bb;
+}

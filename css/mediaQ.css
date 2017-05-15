@@ -1,0 +1,26 @@
+@media (min-width:1000px) {
+    header nav div ul {
+        left: 35%;
+        right: 22%;
+    }
+    header h3 {
+        /*    margin: 10rem auto;*/
+        position: absolute;
+        left: 30%;
+        right: 30%;
+        bottom: 41%;
+    }
+}
+
+@media (min-width:1130px){
+    
+    header h3{
+        bottom: 41%;
+    }
+}
+@media (width:1024px){
+     header nav div ul {
+        left: 28%;
+        right: 20%;
+    }
+}

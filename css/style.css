@@ -1,0 +1,238 @@
+:root {
+    font-size: 120%;
+    font-family: 'lato', sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(rgba(224, 240, 245, 0.36), rgba(206, 224, 237, 0.4));
+    background: linear-gradient(rgba(224, 240, 245, 0.36), rgba(206, 224, 237, 0.4));
+    background-attachment: fixed;
+    /*    background-repeat: repeat-x;*/
+/*    height: 5000px;*/
+}
+
+header {
+    background-image:url("../img/pexels-photo-401107.jpeg");
+    /*    filter: brightness(90%);*/
+    background-size: cover;
+    position: relative;
+    height: 36.5rem;
+    text-align: center;
+}
+
+header nav {
+    width: 100%;
+    height: 4rem;
+    /*    text-align: center;*/
+}
+
+header nav div {
+    position: relative;
+    clear: both;
+    /*        margin: 1rem auto;*/
+}
+
+header nav div ul {
+    font-size: 1.2em;
+    padding: 2;
+    list-style-type: none;
+    position: absolute;
+    left: 28%;
+    right: 22%;
+    color: #ebfcff;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0.2rem 1rem;
+    border-bottom: 0.095em solid #ebfcff;
+    /*
+    text-decoration: underline;
+    text-decoration-color: #d3cec2;
+*/
+    transition: all 0.3s;
+}
+
+header h3 {
+    /*    margin: 10rem auto;*/
+    position: absolute;
+    left: 33%;
+    right: 26%;
+    bottom: 40%;
+    text-transform: uppercase;
+    color: #ebfcff;
+    font-size: 1.7rem;
+    border-top: 0.15rem solid #ebfcff;
+    border-bottom: 0.15rem solid #ebfcff;
+    display: inline;
+    text-align: center;
+    padding: 0.7em;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+header div{
+    position: absolute;
+    top: 65%;
+    bottom: 35%;
+    left: 25%;
+    right: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*---------------------------*/
+
+.container {
+    width: 89%;
+    margin: 5rem auto;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(8, 8, 8, 0.26), -1px -1px 5px rgba(8, 8, 8, 0.26);
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1em;
+}
+
+.container .about-me .my-face {
+    border-radius: 100%;
+    margin: 0rem auto;
+    display: block;
+    box-shadow: 0.8px 0.8px 7px rgba(8, 8, 8, 0.26);
+}
+
+.container .about-me h4 {
+    padding: 1.5rem;
+    line-height: 1.3;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container .education , #exper {
+    height: 25em
+}
+
+.container .education h2 , #exper h2 {
+    padding: 1.6rem 0 0 0;
+    margin: 0;
+}
+
+.container .education h4 {
+    display: inline-block;
+    margin: 1rem 3rem;
+    padding: 2rem 2rem 0.1rem 2rem;
+    font-size: 1.2rem;
+    border-bottom: 0.19em solid rgba(162, 177, 180, 0.77);
+    transition: border-bottom 0.3s;
+}
+
+.container .education ul , #exper ul {
+    list-style-type: none;
+}
+
+.container .education ul li  , #exper ul li{
+    padding: 1.7rem;
+
+}
+/*
+.container .education ul li:after  , #exper ul li:after{
+    
+}
+*/
+
+.container .education ul li h3  , #exper ul li h3{
+    padding: 0.5rem 0;
+}
+
+.container .education ul li span , #exper ul li span {
+    width: 30%;
+    font-weight: 600;
+/*    padding-top: 2em;*/
+
+}
+
+.container .education h3,
+.container .education h5 , #exper h3 , #exper h5 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    /*    display: inline-block*/
+    width: 50%;
+    float: left;
+    clear: both;
+}
+#skills h2{
+    padding: 0.9em 0 0 0;
+    margin: 0 auto;
+    font-size: 2.1em;
+    border-bottom: 0.1em solid black;
+    width: 20%;
+    
+}
+section .skills-bars {
+    margin: 1rem 0;
+    padding: 5px 0;
+}
+
+.skills-bars ul {
+    margin: 2rem 0;
+    width: 80%;
+    text-align: left;
+    list-style-type: none;
+    
+}
+.skills-bars ul li {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    padding-bottom: 0.1rem;
+}
+section progress[value] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18rem;
+    height: 0.4em;
+    display: block;
+    float: right;
+    clear: both;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: rgba(0, 165, 51, 0.74);
+    border-radius: 2px;
+    /*    box-shadow: 0px 1px 2px black inset;*/
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgba(196, 201, 206, 0.74);
+    border-radius: 1px;
+    /*    box-shadow: 1px 1px 5px black;*/
+}
+
+progress[value]::progress-bar {
+    background-color: lightslategrey;
+    /*    border-radius: 5px;*/
+    /*    box-shadow: 5px 5px 10px black;*/
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: rgba(31, 160, 0, 0.9);
+    border-radius: 1px;
+}
+footer{
+    width: 100%;
+    background-image: url("../img/pexels-photo-401107.jpeg");
+    background-position: bottom;
+    height: 4rem;
+    color: #ebfcff;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2rem 0 0 0;
+}
