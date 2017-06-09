@@ -252,14 +252,32 @@ progress[value]::-webkit-progress-value {
   margin: 0.3em;
 }
 
-footer{
-    width: 100%;
-    background-image: url("../img/pexels-photo-401107.jpeg");
-    background-position: bottom;
-    height: 4rem;
-    color: #ebfcff;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 600;
-    padding: 2rem 0 0 0;
+footer {
+  width: 100%;
+  background-image: url("../img/pexels-photo-401107.jpeg");
+  background-position: bottom;
+  color: #ebfcff;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 2rem 0 0 0;
+  clear: both;
+}
+
+footer ul {
+  list-style-type: none;
+  display: inline-block;
+  clear: both;
+}
+
+footer ul li {
+  float: left;
+  padding: 0.2rem;
+  font-size: 1.7rem;
+}
+
+footer ul li a {
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+  padding: 0 0.1em;
 }
