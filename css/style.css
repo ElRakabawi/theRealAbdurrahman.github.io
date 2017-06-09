@@ -118,8 +118,12 @@ section {
 }
 
 .container .education h2 , #exper h2 {
-    padding: 1.6rem 0 0 0;
-    margin: 0;
+  padding: 1.6rem 0 0 0;
+  text-transform: uppercase;
+  border-bottom: 0.1em solid black;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 2.1em;
 }
 
 .container .education h4 {
@@ -141,7 +145,7 @@ section {
 }
 /*
 .container .education ul li:after  , #exper ul li:after{
-    
+
 }
 */
 
@@ -172,7 +176,7 @@ section {
     font-size: 2.1em;
     border-bottom: 0.1em solid black;
     width: 20%;
-    
+
 }
 section .skills-bars {
     margin: 1rem 0;
@@ -184,7 +188,7 @@ section .skills-bars {
     width: 80%;
     text-align: left;
     list-style-type: none;
-    
+
 }
 .skills-bars ul li {
     text-transform: uppercase;
