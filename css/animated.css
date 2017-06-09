@@ -4,4 +4,20 @@ header nav ul li:hover{
 
 .container .education h4:hover{
      border-bottom: 0.19em solid #fac7bb;
+     cursor: pointer;
+}
+ .fcc:hover{
+  color:#006400;
+}
+.twitter:hover{
+  color: #55acee;
+}
+.github:hover{
+  color: black;
+}
+.codepen:hover{
+  color: black;
+}
+.linkedin:hover{
+  color: #0077B5;
 }
