@@ -229,6 +229,29 @@ progress[value]::-webkit-progress-value {
     background-color: rgba(31, 160, 0, 0.9);
     border-radius: 1px;
 }
+
+/*thumbnails*/
+
+.thumbnails {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+.thumbnails-h2{
+  padding-top: 1em;
+  text-transform: uppercase;
+  border-bottom: 0.1em solid black;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 2.1em;
+}
+
+.thumbnails img {
+  margin: 0.3em;
+}
+
 footer{
     width: 100%;
     background-image: url("../img/pexels-photo-401107.jpeg");
